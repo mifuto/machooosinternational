@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="../css/flipbook.min.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+        <script src="../src/libs/three.min.js"></script>
+        <script src="../src/libs/pdf.min.js"></script>
+        <script src="../src/libs/iscroll.min.js"></script>
+        <script src="../../src/js/flipbook.pdfservice.js"></script>
+        <script src="../../src/js/flipbook.book3.js"></script>
+        <script src="../../src/js/flipbook.webgl.js"></script>
+        <script src="../../src/js/flipbook.swipe.js"></script>
+        <script src="../js/flipbook.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#container').flipBook({
+                    pdfUrl: 'assets/pdf/book.pdf',
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="container"></div>
+    </body>
+</html>

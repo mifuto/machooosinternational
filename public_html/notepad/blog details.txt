@@ -1,0 +1,12 @@
+BLOG mian page
+---------------
+blog 1:1 x3
+deatils
+
+event date,event place
+event main tittle
+comments,views
+
+about us page
+---------------
+Load more stories

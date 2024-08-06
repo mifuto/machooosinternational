@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="../css/flipbook.min.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+        <script src="../js/flipbook.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#container').flipBook({
+                    pages: [
+                        {
+                            src: 'assets/images/catalog/1.jpg',
+                            thumb: 'assets/images/catalog/1.jpg',
+                            title: 'Cover',
+                            items: [
+                                {
+                                    type: 'link',
+                                    x: 64,
+                                    y: 893,
+                                    width: 206,
+                                    height: 40,
+                                    spotlightUrl: 'assets/images/catalog/1.jpg',
+                                },
+                                {
+                                    type: 'link',
+                                    x: 395,
+                                    y: 835,
+                                    width: 309,
+                                    height: 163,
+                                    spotlightUrl: 'assets/images/catalog/2.jpg',
+                                },
+                            ],
+                        },
+                        {
+                            src: 'assets/images/catalog/2.jpg',
+                            thumb: 'assets/images/catalog/thumb2.jpg',
+                            title: 'Content',
+                            items: [
+                                {
+                                    x: 43,
+                                    y: 454,
+                                    width: 226,
+                                    height: 126,
+                                    spotlightUrl: 'https://www.youtube.com/embed/Cv1W4nzxPBM?enablejsapi=1',
+                                    type: 'link',
+                                },
+                                {
+                                    x: 40,
+                                    y: 313,
+                                    width: 230,
+                                    height: 128,
+                                    spotlightUrl:
+                                        'https://real3dflipbook.com/wp-content/uploads/2020/03/interior_design.mp4',
+                                    type: 'link',
+                                },
+                            ],
+                        },
+                        {
+                            src: 'assets/images/catalog/3.jpg',
+                            thumb: 'assets/images/catalog/thumb3.jpg',
+                            title: 'Welcome',
+                        },
+                        {
+                            src: 'assets/images/catalog/4.jpg',
+                            thumb: 'assets/images/catalog/thumb4.jpg',
+                            title: 'Design with attitude',
+                            items: [
+                                {
+                                    x: 53,
+                                    y: 100,
+                                    width: 602,
+                                    height: 653,
+                                    spotlightUrl: 'assets/images/catalog/2.jpg',
+                                    type: 'link',
+                                },
+                                {
+                                    x: 52,
+                                    y: 769,
+                                    width: 278,
+                                    height: 158,
+                                    spotlightUrl:
+                                        'https://real3dflipbook.com/wp-content/uploads/2020/03/interior_design.mp4',
+                                    type: 'link',
+                                },
+                            ],
+                        },
+                        {
+                            src: 'assets/images/catalog/5.jpg',
+                            thumb: 'assets/images/catalog/thumb5.jpg',
+                            items: [
+                                {
+                                    x: 359,
+                                    y: 195,
+                                    width: 297,
+                                    height: 206,
+                                    spotlightUrl:
+                                        'https://real3dflipbook.com/wp-content/uploads/2020/03/modern-style-duplex-apartment-residence-home-decoration-modern-loft-interior-design_by_anontae2522_preview_2.mp4',
+                                    type: 'link',
+                                },
+                            ],
+                        },
+                        {
+                            src: 'assets/images/catalog/6.jpg',
+                            thumb: 'assets/images/catalog/thumb6.jpg',
+                            title: 'New Arrivals',
+                        },
+                        {
+                            src: 'assets/images/catalog/7.jpg',
+                            thumb: 'assets/images/catalog/thumb7.jpg',
+                        },
+                        {
+                            src: 'assets/images/catalog/8.jpg',
+                            thumb: 'assets/images/catalog/thumb8.jpg',
+                            title: 'Get our newsletter',
+                        },
+                    ],
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="container"></div>
+    </body>
+</html>

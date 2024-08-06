@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="../css/flipbook.min.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+        <script src="../js/flipbook.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#container').flipBook({
+                    pages: [
+                        {
+                            src: 'assets/images/catalog/1.jpg',
+                            thumb: 'assets/images/catalog/1.jpg',
+                            title: 'Cover',
+                        },
+                        {
+                            src: 'assets/images/catalog/2.jpg',
+                            thumb: 'assets/images/catalog/thumb2.jpg',
+                            title: 'Content',
+                        },
+                        {
+                            src: 'assets/images/catalog/3.jpg',
+                            thumb: 'assets/images/catalog/thumb3.jpg',
+                            title: 'Welcome',
+                        },
+                        {
+                            src: 'assets/images/catalog/4.jpg',
+                            thumb: 'assets/images/catalog/thumb4.jpg',
+                            title: 'Design with attitude',
+                        },
+                        {
+                            src: 'assets/images/catalog/5.jpg',
+                            thumb: 'assets/images/catalog/thumb5.jpg',
+                        },
+                        {
+                            src: 'assets/images/catalog/6.jpg',
+                            thumb: 'assets/images/catalog/thumb6.jpg',
+                            title: 'New Arrivals',
+                        },
+                        {
+                            src: 'assets/images/catalog/7.jpg',
+                            thumb: 'assets/images/catalog/thumb7.jpg',
+                        },
+                        {
+                            src: 'assets/images/catalog/8.jpg',
+                            thumb: 'assets/images/catalog/thumb8.jpg',
+                            title: 'Get our newsletter',
+                        },
+                    ],
+                    viewMode: '2d',
+                    icons: 'material',
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="container"></div>
+    </body>
+</html>

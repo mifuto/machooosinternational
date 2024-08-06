@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+        <script src="js/flipbook.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/flipbook.css" />
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                window.book = $('#b1').flipBook({
+                    pdfUrl: './../deploy/examples/assets/pdf/book.pdf',
+                    search: { enabled: false },
+                    lightBox: { enabled: true },
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="b1" >lightBox pdf here</div>
+    </body>
+</html>
