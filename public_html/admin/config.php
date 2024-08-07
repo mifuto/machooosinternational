@@ -31,8 +31,8 @@ define('CAREER_DATA_UPLOAD_PATH','careerDataUploads/');
 // define('SIGNATUREALBUM_UPLOAD_PATH','signatureAlbumUploads/');
  $_SESSION["GUESTUSERDETAILS"] = "";
  
- define('AWS_KEY','AKIASEOXOVG2M6D4JVUD');
- define('AWS_SECRET','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');
+ define('AWS_KEY','aws_key_val');
+ define('AWS_SECRET','aws_secret_val');
  define('AWS_REGION','ap-south-2');
  define('AWS_BUCKET','machooosinternational');
  
